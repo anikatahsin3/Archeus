@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f3f3f3;
+}
+
+#bg{
+    background-color: #242526;
+}
+
+.top{
+    font-family: 'Expletus-Sans-Medium', sans-serif !important;
+    margin-left: 17px;
+}
+
+.logo{
+    background-color: #2C2B39;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+input[type=text]{
+    width: 50%;
+}
+
+input[type=email]{
+    width: 50%;
+}
+
+input[type=number]{
+    width: 50%;
+}
+
+input[type=url]{
+    width: 50%;
+}
+
+.add1{
+    background-color: #1c1c1c;
+}
+
+.bottom{
+    width: 100%;
+    height: 70px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.inup{
+    width: 365px;
+    height: 50px;
+    left: 1263px;
+    top: 474px;
+    border: 0px;
+    border-radius: 11px;
+    padding: 20px;
+    opacity: 2 !important;
+    background-color: #8178ff;
+}
+
+
+#buttonbox1{
+    width: 104px;
+    height: 54px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    background-color:#8178ff;    
+}
+
+#buttonbox2{
+    width: 104px;
+    height: 54px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    background-color:#df3838;    
+}

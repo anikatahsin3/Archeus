@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+.category {
+    position: relative;
+    color: #9b9b9b !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gen_text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9b9b9b;
+}
+
+
+.title {
+    position: absolute;
+    left: 30px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    color: #9b9b9b;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+#diamond {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #373d48;
+    position: relative;
+    top: -12px;
+    left: -12px;
+}
+
+
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-top-color: #373d48;
+}
+
+
+#icons {
+    position: absolute;
+    bottom: -21px;
+    left: -8px !important;
+    z-index: 9;
+    color: white;
+}
+
+#line {
+    width: 1px;
+    height: 10px;
+    background-color: #373d48;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.top_part {
+    background-color: #373d48;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+
+}
+
+.top_field {
+    margin: 0px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    align-content: center;
+}
+
+.dl_button{
+    margin-bottom: 20px!important;
+}
+
+.dl_pdf{
+    position: absolute;
+    left: -4%;
+    color: #8178ff;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 0px 15px 0 15px;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(58, 57, 57, 0.1);
+}
+
+.subpage {
+    padding: 1cm;
+    height: 256mm;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
